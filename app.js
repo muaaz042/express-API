@@ -9,5 +9,4 @@ app.use(express.json());
 app.use("/", employee);
 
 app.listen(1000, (req, res) => {
-  console.log("Server listening");
 });
